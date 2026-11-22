@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="OdysseyBlue – your friendly guide to Greece: attractions, culture, activities and how to get around.">
+  <title>OdysseyBlue | Discover Greece</title>
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="icon" type="image/jpeg" href="https://i.pinimg.com/736x/61/5f/bb/615fbb691e66e95c616a99a558d58078.jpg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== Moving background: photo + tint + waves (animated in CSS) ===== -->
+  <div class="scene" aria-hidden="true">
+    <div class="scene-photo"></div>
+    <div class="scene-tint"></div>
+    <div class="waves waves-back"></div>
+    <div class="waves waves-front"></div>
+  </div>
+
+  <!-- ===== Header & navigation ===== -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="index.html"><span class="boat">⛵</span><span>Odyssey<span class="light">Blue</span></span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="transport.html">Transport</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== Hero / banner ===== -->
+    <section class="hero" id="top">
+      <div class="container">
+        <div class="hero-box">
+          <span class="tagline">🇬🇷 GREECE · ΕΛΛΑΔΑ</span>
+          <h1>Welcome to the Land of Gods &amp; Endless Blue</h1>
+          <p>Sail into white villages, ancient temples and crystal-clear seas. OdysseyBlue is your friendly guide to planning an unforgettable Greek adventure.</p>
+          <div class="hero-buttons">
+            <a class="btn btn-light pulse" href="explore.html">Start Exploring →</a>
+            <a class="btn" href="transport.html">How to get around</a>
+          </div>
+        </div>
+      </div>
+      <a class="scroll-hint" href="#about-greece" aria-label="Scroll down">⌄</a>
+    </section>
+
+    <!-- ===== About the destination ===== -->
+    <section class="section" id="about-greece">
+      <div class="container">
+        <div class="glass reveal">
+          <div class="grid grid-2" style="align-items:center">
+            <div>
+              <h2>Why Greece?</h2>
+              <p style="margin-top:12px">Greece is a sun-soaked country in south-east Europe where history and holiday meet. It is the birthplace of democracy, the Olympic Games and some of the world's greatest myths. Today it is famous for its snow-white villages, blue-domed chapels, and thousands of islands scattered across the Aegean and Ionian seas.</p>
+              <p style="margin-top:12px">Whether you love history, beaches, food or hiking, Greece has a corner that feels made just for you.</p>
+            </div>
+            <img src="images/santorini-stairs.jpg" alt="Whitewashed stairway in Santorini at night" style="border-radius:16px;box-shadow:var(--shadow)">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Quick facts (animated counters) ===== -->
+    <section class="section" style="padding-top:0">
+      <div class="container">
+        <div class="stats glass reveal">
+          <div class="stat"><strong data-count="6000">0</strong>islands &amp; islets</div>
+          <div class="stat"><strong data-count="300">0</strong>sunny days a year (approx.)</div>
+          <div class="stat"><strong data-count="18">0</strong>UNESCO sites (and counting)</div>
+          <div class="stat"><strong data-count="13000">0</strong>km of coastline (approx.)</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Reasons to visit (hover or tap a card to flip it) ===== -->
+    <section class="section" id="reasons">
+      <div class="container">
+        <div class="section-title reveal">
+          <h2>4 Reasons to Visit Greece</h2>
+          <p>Hover over (or tap) a card to find out more</p>
+        </div>
+        <div class="grid grid-4">
+          <div class="flip reveal" tabindex="0">
+            <div class="flip-inner">
+              <div class="flip-front"><span class="icon">🏛️</span><h3>Ancient History</h3></div>
+              <div class="flip-back"><h3>Walk through legends</h3><p>Stand where philosophers debated and athletes competed 2,500 years ago.</p></div>
+            </div>
+          </div>
+          <div class="flip reveal" tabindex="0">
+            <div class="flip-inner">
+              <div class="flip-front"><span class="icon">🏖️</span><h3>Dreamy Beaches</h3></div>
+              <div class="flip-back"><h3>Water in every shade of blue</h3><p>From hidden coves to long sandy bays, the sea is always warm and inviting in summer.</p></div>
+            </div>
+          </div>
+          <div class="flip reveal" tabindex="0">
+            <div class="flip-inner">
+              <div class="flip-front"><span class="icon">🥗</span><h3>Delicious Food</h3></div>
+              <div class="flip-back"><h3>Fresh &amp; full of flavour</h3><p>Olive oil, feta, grilled seafood, honey and sweet pastries: every meal is a feast.</p></div>
+            </div>
+          </div>
+          <div class="flip reveal" tabindex="0">
+            <div class="flip-inner">
+              <div class="flip-front"><span class="icon">🤝</span><h3>Warm Hospitality</h3></div>
+              <div class="flip-back"><h3>Philoxenia</h3><p>The Greek word means "love of strangers". You'll be treated like a friend from day one.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Extra feature: phrase of the day ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="glass phrase reveal">
+          <h2>Learn a Greek phrase</h2>
+          <p class="greek" id="phraseGreek" style="margin-top:10px" lang="el">Καλημέρα</p>
+          <p class="say" id="phraseSay">Say it: kah-lee-MEH-rah</p>
+          <p id="phraseEnglish">Good morning</p>
+          <button class="btn" id="phraseBtn" type="button">Show me another phrase 🔄</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>⛵ OdysseyBlue</h3>
+          <p>A student travel website about Greece, built for the Formative 1 – Building a Basic Website assessment.</p>
+        </div>
+        <div>
+          <h3>Quick links</h3>
+          <ul>
+            <li><a href="explore.html">Explore</a></li>
+            <li><a href="transport.html">Transport</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Official tourism info</h3>
+          <p><a href="https://www.visitgreece.gr/" target="_blank" rel="noopener">visitgreece.gr</a> (Greek National Tourism Organisation)</p>
+        </div>
+      </div>
+      <p class="copyright">© 2026 OdysseyBlue · See sources document for credits</p>
+    </div>
+  </footer>
+
+  <button id="toTop" aria-label="Back to top">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>
